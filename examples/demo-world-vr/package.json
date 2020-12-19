@@ -1,0 +1,14 @@
+{
+  "name": "demo-world-vr",
+  "version": "1.0.0",
+  "description": "Demo for @mitchallen/three-xr-kit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web-server": "python -m SimpleHTTPServer $PORT || 8000",
+    "inuse": "lsof -i :8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -23,18 +23,43 @@ ThreeJS XR Kit
 ```js
 import {
   XRKIT,
-} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.8/dist/three-xr-kit.modern.js'
+} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.9/dist/three-xr-kit.modern.js'
 ```
 
 * * *
 
 # Example code
 
-Coming soon.
+See the repo examples folder.
+
+# Live demos
+
+To see live demos using this package, browse to:
+
+* https://vrmitch.com
+
+If you browse to this site in your VR headset you can click the **Enter VR** button.
+
+This code has been tested on:
+
+* Oculus Go
+* Oculus Quest 2
 
 * * *
 
 # Publishing
+
+To publish your version of the package you must first setup an account and project in NPM.
+
+This will boost the version number, push and publish:
+
+```sh
+git add .
+git commit -m "updated code"
+npm run pub:patch
+```
+
+As an alternative:
 
 ```sh
 git add .
