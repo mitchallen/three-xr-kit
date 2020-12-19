@@ -1,4 +1,9 @@
 /*
+ * File: app.js
+ * Author: Mitch Allen
+ */
+
+/*
   In a browser must use script type="module" parameter:
   <script type="module" src="./app.js"></script>
  */

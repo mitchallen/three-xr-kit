@@ -33,17 +33,17 @@ export class ShapeFactory {
     }
   }
 
-  // 2. Define a static create method to return new icosahedrons
+  // Define a static create method to return new icosahedrons
   static create(spec) {
 
-    // 3. Setup default values or use arguments
+    // Setup default values or use arguments
     spec = spec || {};
     var name = spec.name = "shape";  
     var tX = spec.x || 0.0;
     var tY = spec.y || 0.0;
     var tZ = spec.z|| 0.0;
 
-    // pass additional spec properties to createMesh
+    // Pass additional spec properties to createMesh
     let mesh = spec.mesh || ShapeFactory.createMesh( spec ); 
 
     // Use ThreeJS to define a 3D shape
@@ -55,12 +55,12 @@ export class ShapeFactory {
     // Use the name property to specify a type
     shape.name = name;
 
-    // 6. Using ThreeJS methods on the shape, move it to a specific offset
+    // Using ThreeJS methods on the shape, move it to a specific offset
     shape.translateX(tX);
     shape.translateY(tY);
     shape.translateZ(tZ);
 
-    // Return the new icosahedron
+    // Return the new shape
     return shape;
   }
 }

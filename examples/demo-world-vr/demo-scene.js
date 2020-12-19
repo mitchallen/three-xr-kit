@@ -1,3 +1,7 @@
+/*
+ * File: demo-scene.js
+ * Author: Mitch Allen
+ */
 
 import {
   XRKIT,
@@ -40,7 +44,7 @@ export class DemoSceneFactory {
     demoWorld.translateY(1)
     demoWorld.translateZ(-5);
 
-    // 8. Create a new ThreeJS scene
+    // Create a new ThreeJS scene
     var scene = new THREE.Scene();
 
     // Add demo world to scene
