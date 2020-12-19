@@ -9,7 +9,7 @@ ThreeJS XR Kit
     <img src="http://img.shields.io/npm/v/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Version">
   </a>
   <a href="https://npmjs.com/package/@mitchallen/three-xr-kit">
-    <img src="https://img.shields.io/npm/l/@mitchallen/three-xr-kit.svg?style=flat-square" alt="License"></a>
+    <img src="https://img.shields.io/npm/l/@mitchallen/three-xr-kit.svg?style=flat-square" alt="License">
   </a>
   [![](https://data.jsdelivr.com/v1/package/npm/@mitchallen/three-xr-kit/badge)](https://www.jsdelivr.com/package/npm/@mitchallen/three-xr-kit)
 </p>
