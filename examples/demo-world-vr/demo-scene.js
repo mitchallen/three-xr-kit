@@ -26,12 +26,14 @@ export class DemoSceneFactory {
     let wire = ShapeFactory.createMesh({color: "#000000", wireframe: true });
 
     const options = [
-      { mesh, x: 0.0, y: -2.0, z: 0.0 },
-      { mesh: wire, x: 0.0, y: -2.0, z: 0.0 },
-      { mesh, x: 0.0, y:  0.0, z: 0.0 },
-      { mesh: wire, x: 0.0, y:  0.0, z: 0.0 },
-      { mesh, x: 0.0, y:  2.0, z: 0.0 },
-      { mesh: wire, x: 0.0, y:  2.0, z: 0.0 },
+      { mesh,       x: 0.0, y: -2.0, z:  0.0 },
+      { mesh: wire, x: 0.0, y: -2.0, z:  0.0 },
+      { mesh,       x: 0.0, y:  0.0, z:  0.0 },
+      { mesh: wire, x: 0.0, y:  0.0, z:  0.0 },
+      { mesh,       x: 0.0, y:  2.0, z:  0.0 },
+      { mesh: wire, x: 0.0, y:  2.0, z:  0.0 },
+      { mesh,       x: 0.0, y:  0.0, z: -2.0 },
+      { mesh: wire, x: 0.0, y:  0.0, z: -2.0 },
     ]
 
     // Add shapes to the demo world group node 
