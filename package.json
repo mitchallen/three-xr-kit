@@ -25,5 +25,9 @@
   "devDependencies": {
     "microbundle": "^0.12.4",
     "three": "^0.123.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitchallen/three-xr-kit.git"
+  },
 }
