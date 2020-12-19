@@ -1,0 +1,29 @@
+{
+  "name": "@mitchallen/three-xr-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/three-xr-kit.js",
+  "module": "dist/three-xr-kit.module.js",
+  "source": "src/three-xr-kit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web-server": "python -m SimpleHTTPServer $PORT || 8000",
+    "inuse": "lsof -i :8000",
+    "// preversion": "npm run dist && npm test",
+    "preversion": "npm run dist",
+    "dev": "microbundle watch --globals three=THREE --external three",
+    "dist": "microbundle --globals three=THREE --external three",
+    "version": "git add -A dist",
+    "//postversion": "git push && git push --tags && npm publish",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Mitch Allen",
+  "license": "MIT",
+  "peerDependencies": {
+    "three": "^0.123.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.4",
+    "three": "^0.123.0"
+  }
+}
