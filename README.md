@@ -6,14 +6,12 @@ ThreeJS XR Kit
 
 <p align="left">
   <a href="https://npmjs.org/package/@mitchallen/three-xr-kit">
-    <img src="http://img.shields.io/npm/dt/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Downloads">
-  </a>
-  <a href="https://npmjs.org/package/@mitchallen/three-xr-kit">
     <img src="http://img.shields.io/npm/v/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Version">
   </a>
   <a href="https://npmjs.com/package/@mitchallen/three-xr-kit">
     <img src="https://img.shields.io/npm/l/@mitchallen/three-xr-kit.svg?style=flat-square" alt="License"></a>
   </a>
+  [![](https://data.jsdelivr.com/v1/package/npm/@mitchallen/three-xr-kit/badge)](https://www.jsdelivr.com/package/npm/@mitchallen/three-xr-kit)
 </p>
 
 # Usage
@@ -23,7 +21,7 @@ ThreeJS XR Kit
 ```js
 import {
   XRKIT,
-} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.9/dist/three-xr-kit.modern.js'
+} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.10/dist/three-xr-kit.modern.js'
 ```
 
 * * *
