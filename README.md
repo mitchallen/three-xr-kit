@@ -5,14 +5,14 @@ ThreeJS XR Kit
 * * * 
 
 <p align="left">
-  <a href="https://npmjs.org/package/three-xr-kit">
-    <img src="http://img.shields.io/npm/dt/three-xr-kit.svg?style=flat-square" alt="Downloads">
+  <a href="https://npmjs.org/package/@mitchallen/three-xr-kit">
+    <img src="http://img.shields.io/npm/dt/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Downloads">
   </a>
-  <a href="https://npmjs.org/package/three-xr-kit">
-    <img src="http://img.shields.io/npm/v/three-xr-kit.svg?style=flat-square" alt="Version">
+  <a href="https://npmjs.org/package/@mitchallen/three-xr-kit">
+    <img src="http://img.shields.io/npm/v/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Version">
   </a>
-  <a href="https://npmjs.com/package/aframe-maze-component">
-    <img src="https://img.shields.io/npm/l/three-xr-kit.svg?style=flat-square" alt="License"></a>
+  <a href="https://npmjs.com/package/@mitchallen/three-xr-kit">
+    <img src="https://img.shields.io/npm/l/@mitchallen/three-xr-kit.svg?style=flat-square" alt="License"></a>
   </a>
 </p>
 
@@ -23,7 +23,7 @@ ThreeJS XR Kit
 ```js
 import {
   XRKIT,
-} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.6/dist/three-xr-kit.modern.js'
+} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.7/dist/three-xr-kit.modern.js'
 ```
 
 * * *
