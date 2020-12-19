@@ -6,13 +6,29 @@ ThreeJS XR Kit
 
 # Usage
 
-## Temp get from github via jsdelivr
+## Get from npm via jsdelivr 
 
 ```js
 import {
   XRKIT,
-} from 'https://cdn.jsdelivr.net/gh/mitchallen/three-xr-kit@1.0.3/dist/three-xr-kit.modern.min.js'
+} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.4/dist/three-xr-kit.modern.js'
 ```
+
+## Get from github via jsdelivr
+
+You should usually use the NPM url above, the gh URL is only if for some reason the other is unavailable.
+
+```js
+import {
+  XRKIT,
+} from 'https://cdn.jsdelivr.net/gh/mitchallen/three-xr-kit@1.0.4/dist/three-xr-kit.modern.js'
+```
+
+* * *
+
+# Example code
+
+Coming soon.
 
 * * *
 
