@@ -1,6 +1,6 @@
 {
   "name": "@mitchallen/three-xr-kit",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "dist/three-xr-kit.js",
   "module": "dist/three-xr-kit.module.js",
