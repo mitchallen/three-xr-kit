@@ -21,7 +21,7 @@ ThreeJS XR Kit
 ```js
 import {
   XRKIT,
-} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.10/dist/three-xr-kit.modern.js'
+} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.11/dist/three-xr-kit.modern.js'
 ```
 
 * * *
