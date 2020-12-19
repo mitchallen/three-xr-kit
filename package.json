@@ -14,8 +14,7 @@
     "dev": "microbundle watch --globals three=THREE --external three",
     "dist": "microbundle --globals three=THREE --external three",
     "version": "git add -A dist",
-    "//postversion": "git push && git push --tags && npm publish",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "author": "Mitch Allen",
   "license": "MIT",
