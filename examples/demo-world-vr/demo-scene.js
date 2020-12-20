@@ -26,15 +26,27 @@ export class DemoSceneFactory {
     let mesh = ShapeFactory.createMesh({ color: "#00FF00", wireframe: false });
     let wire = ShapeFactory.createMesh({ color: "#000000", wireframe: true  });
 
+    let orbiter = ShapeFactory.createMesh({ 
+      color: "#FF0000", 
+      wireframe: false,
+      radius: 0.5, 
+    });
+
+    let orbiterWire = ShapeFactory.createMesh({ 
+      color: "#0000FF", 
+      wireframe: true,
+      radius: 0.75, 
+    });
+
     const options = [
-      { mesh,       x: 0.0, y: -2.0, z:  0.0 },
-      { mesh: wire, x: 0.0, y: -2.0, z:  0.0 },
-      { mesh,       x: 0.0, y:  0.0, z:  0.0 },
-      { mesh: wire, x: 0.0, y:  0.0, z:  0.0 },
-      { mesh,       x: 0.0, y:  2.0, z:  0.0 },
-      { mesh: wire, x: 0.0, y:  2.0, z:  0.0 },
-      { mesh,       x: 0.0, y:  0.0, z: -2.0 },
-      { mesh: wire, x: 0.0, y:  0.0, z: -2.0 },
+      { mesh,               x: 0.0, y: -2.0, z:  0.0 },
+      { mesh: wire,         x: 0.0, y: -2.0, z:  0.0 },
+      { mesh,               x: 0.0, y:  0.0, z:  0.0 },
+      { mesh: wire,         x: 0.0, y:  0.0, z:  0.0 },
+      { mesh,               x: 0.0, y:  2.0, z:  0.0 },
+      { mesh: wire,         x: 0.0, y:  2.0, z:  0.0 },
+      { mesh: orbiter,      x: 0.0, y:  0.0, z: -2.0 },
+      { mesh: orbiterWire,  x: 0.0, y:  0.0, z: -2.0 },
     ]
 
     // Add shapes to the demo world group node 
