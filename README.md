@@ -5,6 +5,9 @@ ThreeJS XR Kit
 * * * 
 
 <p align="left">
+  <a href="https://npmjs.com/package/@mitchallen/three-xr-kit">
+    <img src="http://img.shields.io/npm/dt/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Downloads">
+  </a>
   <a href="https://npmjs.org/package/@mitchallen/three-xr-kit">
     <img src="http://img.shields.io/npm/v/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Version">
   </a>
@@ -13,9 +16,6 @@ ThreeJS XR Kit
   </a>
   <a href="https://www.jsdelivr.com/package/npm/@mitchallen/three-xr-kit">
     <img src="https://data.jsdelivr.com/v1/package/npm/@mitchallen/three-xr-kit/badge" alt="jsdelivr">
-  </a>
-  <a href="https://npmjs.com/package/@mitchallen/three-xr-kit">
-    <img src="http://img.shields.io/npm/dt/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Downloads">
   </a>
 </p>
 
