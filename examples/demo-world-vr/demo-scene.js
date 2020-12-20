@@ -22,8 +22,8 @@ export class DemoSceneFactory {
     const demoWorld = new THREE.Group();
     demoWorld.name = "demo";
 
-    let mesh = ShapeFactory.createMesh({color: "#00FF00", wireframe: false });
-    let wire = ShapeFactory.createMesh({color: "#000000", wireframe: true });
+    let mesh = ShapeFactory.createMesh({ color: "#00FF00", wireframe: false });
+    let wire = ShapeFactory.createMesh({ color: "#000000", wireframe: true  });
 
     const options = [
       { mesh,       x: 0.0, y: -2.0, z:  0.0 },
