@@ -118,10 +118,9 @@ export class XRBUTTON {
 
 export class XRKIT {
 
-  static createRenderer(ctx) {
+  static createRenderer( ctx = {} ) {
     console.log('XRKIT.createRenderer');
-    ctx = ctx || {};
-    var clear = ctx.clear || "#000000";
+    let { clear = "#000000" } = ctx;
     // Setup a ThreeJS renderer to render the scene
     var renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setClearColor(clear);
@@ -131,21 +130,20 @@ export class XRKIT {
     return renderer;
   }
 
-  static createCamera(ctx) {
-    ctx = ctx || {};
-    // fov — Camera frustum vertical field of view
-    var fov = ctx.fov || 75;
-    // aspect — Camera frustum aspect ratio
-    var aspectRatio = ctx.aspectRatio || window.innerWidth / window.innerHeight;
-    var near = ctx.near || 0.1;  // near — Camera frustum near plane
-    var far = ctx.far || 1000; // far — Camera frustum far plane.
+  static createCamera( ctx = {} ) {
+    let {
+      fov = 75, // Camera frustum vertical field of view
+      // Camera frustum aspect ratio
+      aspectRatio = window.innerWidth / window.innerHeight,
+      near = 0.1, // Camera frustum near plane
+      far = 1000, // Camera frustum far plane.
+    } = ctx;
     // Create a ThreeJS camera
     var camera = new THREE.PerspectiveCamera(fov, aspectRatio, near, far);
     return camera;
   }
 
-  static create(ctx) {
-    ctx = ctx || {};
+  static create(ctx = {}) {
     var renderer = XRKIT.createRenderer(ctx);
     document.body.appendChild(renderer.domElement);
     // [VR] Append VR Button to scene
@@ -157,8 +155,7 @@ export class XRKIT {
     }
   }
 
-  static render(ctx) {
-    ctx = ctx || {};
+  static render(ctx = {}) {
     // set defaults so it won't crash
     var scene = ctx.scene || new THREE.Scene();
     var renderer = ctx.renderer || XRKIT.createRenderer(ctx);
@@ -166,8 +163,7 @@ export class XRKIT {
     renderer.render(scene, camera);
   }
 
-  static resize(ctx) {
-    ctx = ctx || {};
+  static resize(ctx = {}) {
     // set default so it won't crash
     var renderer = ctx.renderer || XRKIT.createRenderer(ctx);
     var camera = ctx.camera || XRKIT.createCamera(ctx);
