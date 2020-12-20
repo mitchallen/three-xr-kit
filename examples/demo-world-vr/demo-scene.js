@@ -68,7 +68,7 @@ export class DemoSceneFactory {
     // Define a scene with methods to return
     var demoScene = {
 
-      // Define a method on the iscene to handle browser window resizing
+      // Define a method on the scene to handle browser window resizing
       resize: function () {
         XRKIT.resize(xrApp);
       },
