@@ -12,7 +12,10 @@ ThreeJS XR Kit
     <img src="https://img.shields.io/npm/l/@mitchallen/three-xr-kit.svg?style=flat-square" alt="License">
   </a>
   <a href="https://www.jsdelivr.com/package/npm/@mitchallen/three-xr-kit">
-    <img src="https://data.jsdelivr.com/v1/package/npm/@mitchallen/three-xr-kit/badge" alt="License">
+    <img src="https://data.jsdelivr.com/v1/package/npm/@mitchallen/three-xr-kit/badge" alt="jsdelivr">
+  </a>
+  <a href="https://npmjs.com/package/@mitchallen/three-xr-kit">
+    <img src="http://img.shields.io/npm/dt/@mitchallen/three-xr-kit.svg?style=flat-square" alt="Downloads">
   </a>
 </p>
 
