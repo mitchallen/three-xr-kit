@@ -5,7 +5,7 @@
 
 import {
   XRKIT,
-} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.13/dist/three-xr-kit.modern.js';
+} from 'https://cdn.jsdelivr.net/npm/@mitchallen/three-xr-kit@1.0.14/dist/three-xr-kit.modern.js';
 // } from '../../dist/three-xr-kit.modern.js'
 
 import { ShapeFactory } from './shape.js';
